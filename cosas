@@ -1,0 +1,144 @@
+<iframe src="https://player.vimeo.com/video/346080981?h=839771308e" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+
+        <main>
+<!--
+            <!--*Banner-->
+            <section id="banner-principal">
+               <div class="contenedor">   
+                   <!-- <img src="images/rammstein-2019.jpg" alt="">    -->           
+                   <video   muted loop> <!--!autoplay-->
+                       <source src="assets/video-banner.mp4">
+                   </video>
+               </div> 
+               
+               
+            </section>
+
+            <!--*Section Video YouTube - gira 2022-->
+            <section class=" video-tour bg-gris-uno bx-shadow py-3">
+                <div class="contenedor">
+                    <div class="contenedor-video-ext contenedor-70 p-1">
+                        <iframe src="https://player.vimeo.com/video/346080981?h=839771308e" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="pos-relative contenedor-tickets contenedor-30 p-1 ">
+                        <img src="images/rammstein-stage-2019.jpg" alt="stage-2019">
+                        <div class="texto-stage p-5">
+                            <p>Tickets Disponibles</p>
+                        </div>
+                    </div>
+                </div>                
+            </section>           
+
+             <section class="noticias py-3">
+                <div class="contenedor">                    
+                    <div class="titulo-noticias p-1 contenedor-70">
+                        <h2>Ultimas Noticias</h2>                    
+                    </div>
+                    <div class="btn-otras-noticias p-1 contenedor-30">
+                        <a href="#"><h3>Otras Noticias</h3></a>
+                    </div>
+                    <div class="contenedor-noticia">
+                        <article class="mb-2">
+                            <div class="p-2 contenido-noticia contenedor-40 img-noticia">
+                                <img src="images/new-01.jpg" alt="" >
+                            </div>
+                            <div class="p-2 contenido-noticia contenedor-60 texto-noticia">
+                                <h3>TITULO!</h3>
+                                <h4>03 Mayo 2020</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, soluta!
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, soluta!Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, soluta!Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, soluta!Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                </p>
+                            </div>
+                        </article>                   
+                    </div>
+                    <div class="contenedor-noticia">
+                        <article class="mb-2">
+                            <div class="p-2 contenido-noticia contenedor-40 img-noticia">
+                                <img src="images/new-2.jpg" alt="" >
+                            </div>
+                            <div class="p-2 contenido-noticia contenedor-60 texto-noticia">
+                                <h3>TITULO!</h3>
+                                <h4>03 Mayo 2020</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, soluta!
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, soluta!Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, soluta!Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, soluta!Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                </p>
+                            </div>
+                        </article>                   
+                    </div>
+                    <div class="contenedor-noticia">
+                        <article class="mb-2">
+                            <div class="p-2 contenido-noticia contenedor-40 img-noticia">
+                                <img src="images/new-2.jpg" alt="" >
+                            </div>
+                            <div class="p-2 contenido-noticia contenedor-60 texto-noticia pb">
+                                <h3>TITULO!</h3>
+                                <h4>03 Mayo 2020</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, soluta!
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, soluta!Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, soluta!Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, soluta!Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                </p>
+                            </div>
+                        </article>                   
+                    </div>
+                </div>
+            </section> 
+            
+            
+
+            <section class="lista-spotify px-3">
+                <div class="contenedor p-2">
+                    <div class="ultimo-disco p-5"> 
+                       <div class="caratula-ultimo-disco mx-1">
+                        <img src="images/rammstein-2019.jpg" alt="">
+                    </div>
+                    <div class="playlist-spotify ">
+                        <iframe src="https://open.spotify.com/embed/album/1LoyJQVHPLHE3fCCS8Juek" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                    </div> 
+                    </div>
+                    
+                </div>
+            </section>
+
+            <!--!FORMULARIO-->
+            <section class="formulario">
+                <div class="contenedor-formulario">
+                    <div class="titulo-formulario">
+                        <h3>Subscribete a la Newsletter</h3>
+                    </div>
+                    <form action="">
+                        <input class="control-form mb-2" type="text" placeholder="Ingresa tu Nombre">
+                        <input class="control-form mb-2" type="text" placeholder="Ingresa tu Apellido">
+                        <input class="control-form mb-2" type="email" placeholder="Ingresa tu Correo electronicos">
+                        <input type="submit">
+                    </form>
+                </div>
+            </section>
+           
+
+            <footer>
+                <div class="contenido-footer pt-3">
+                    <div class="logo-footer contenedor-40">
+                        <img src="images/ramm-logo-white.png" alt="">
+                    </div>
+                    <div class="separador-footer ">
+
+                    </div>
+                    <div class="lista-footer contenedor-40">
+                        <ul>
+                            <a href="">NOTICIAS</a>
+                            <a href="">TOUR 2022</a>
+                            <a href="">DISCOGRAFIA</a>
+                            <a href="">BANDA</a>
+                            <a href="">TIENDA</a>
+                        </ul>
+                    </div>
+                    <div class="disclaimer ">
+                        <h3>RAMMSTEIN | Todos los derechos reservados</h3>
+                    </div>
+                    
+                </div>
+
+            </footer>
+        </main>
+
+    -->
