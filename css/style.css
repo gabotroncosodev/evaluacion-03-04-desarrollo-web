@@ -1,4 +1,5 @@
 
+
 /**Contenedor*/
 .contenedor{
     width: 80%;
@@ -15,7 +16,24 @@
     z-index: 1;
 } 
 
+section, footer{
+    width: 100%;
+}
 
+ul{
+    list-style: none;
+}
+
+button{
+    background-color: rgb(133, 0, 0);
+    color: white;
+    font-weight: 700;
+    padding: 10px 10px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+}
 
 
 
@@ -35,7 +53,7 @@ header{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 30px 10%;
+    padding: 30px 0%;
 }
 
 header .logo-img{
@@ -44,21 +62,13 @@ header .logo-img{
 header a img{
     height: 60px;
 }
-.nav-header ul{
-    list-style: none;
-}
+
 
 .nav-header ul li{
     float: left;
     padding: 0 10px;
 }
-header button{
-    background-color: mediumblue;
-    color: white;
-    padding: 10px 10px;
-    cursor: pointer;
-    border-radius: 5px;
-}
+
 
 /***********BANNER PRINCIPAL*/
 
@@ -83,6 +93,102 @@ header button{
 
 .banner-principal video{
     width: 100%;
+}
+
+/********************BANNER OTROS SITIOS*/
+
+.banner-otros-sitios{
+    padding-top: 90px;
+    height: 350px;
+}
+
+/********************BANNER DISCOGRAFIA*/
+
+.banner-discografia{ /*!REVISAR*/
+    background: url(../images/rammstein-in-studio.jpg) center fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-discografia h1{
+    color: #fff;
+    font-size: 70px;
+    text-shadow: 2px 2px 5px #000;
+}
+
+/*************SECTION DISCOS***/
+
+.discos .contenedor{
+    display: grid;
+    gap: 1em;
+    grid-auto-rows: 200px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+
+.disco-caratula img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+/*****FONDOS CAJA DISCOS DISCOGRAFIA*/
+.herzeleid-caja{
+    background: url(../images/fondos-discos/fondo-herzeleid.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.herzeleid-caja .degradado-color-disco{
+    background: rgb(88,69,16);
+    background: -moz-linear-gradient(171deg, rgba(88,69,16,0.43) 0%, rgba(88,75,16,0.7399334733893557) 54%, rgba(29,23,5,0.9332107843137255) 80%, rgba(0,0,0,1) 100%);
+    background: -webkit-linear-gradient(171deg, rgba(88,69,16,0.43) 0%, rgba(88,75,16,0.7399334733893557) 54%, rgba(29,23,5,0.9332107843137255) 80%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(171deg, rgba(88,69,16,0.43) 0%, rgba(88,75,16,0.7399334733893557) 54%, rgba(29,23,5,0.9332107843137255) 80%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#584510",endColorstr="#000000",GradientType=1);
+}
+
+.sehnsucht-caja{
+    background: url(../images/fondos-discos/fondo-sehnsucht.png) no-repeat center;
+    background-size: cover;
+}
+
+.sehnsucht-caja .degradado-color-disco{
+    background: rgb(13,4,58);
+background: -moz-linear-gradient(180deg, rgba(13,4,58,0.7903536414565826) 0%, rgba(0,0,0,1) 100%);
+background: -webkit-linear-gradient(180deg, rgba(13,4,58,0.7903536414565826) 0%, rgba(0,0,0,1) 100%);
+background: linear-gradient(180deg, rgba(13,4,58,0.7903536414565826) 0%, rgba(0,0,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0d043a",endColorstr="#000000",GradientType=1);
+}
+
+/*************DESCRIPCION DISCO*/
+
+.descripcion-disco{    
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+
+
+
+.descripcion-disco .degradado-color-disco .contenedor{
+    display: grid;
+    grid-auto-rows: minmax(500px, auto);
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    
+}
+
+
+.info-disco-caratula img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.info-disco-caratula, .info-disco-texto, .info-disco-spotify, .info-disco-lista{
+    background: rgba(0, 0, 0, 0.3);
 }
 
 /******************SECTION VIDEO GIRA*/
@@ -115,19 +221,19 @@ header button{
     text-shadow: 1px 1px 1px #000;
     background: url(../images/rammstein-stage-2019.jpg)  no-repeat center;
     display: flex;    
-    align-items: center;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;    
+    text-align: center;
+
     
 }
 
 .video-gira .venta-tickets-video h3{
-    font-size: 25px;
+    font-size: 2rem;
 }
 
 /***********NOTICIAS*/
 .noticias .contenedor{
-    height: 800px;
     padding-top: 20px;    
     
 }
@@ -137,10 +243,7 @@ header button{
     justify-content: space-between;
 }
 
-.grilla-noticias{
-    height: auto;/* 
-    background-color: #4f4f4f; */
-}
+
 
 .noticia{
     width: 100%;    
@@ -173,4 +276,148 @@ header button{
 
 .texto-noticia a{
     color: #ac0000;
+}
+
+
+/************SECTION ULTIMO DISCO*/
+
+.ultimo-disco .contenedor{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-ultimo-disco{
+    width: 400px;
+    height: 400px;
+    background-color: #3d3;
+}
+
+.img-ultimo-disco img{
+    width: 100%;
+    height: 100%;
+}
+.playlist-spotify{
+    width: 600px;
+    height: 500px;
+}
+
+
+
+/************FORMULARIO*/
+
+.formulario{
+    background:  url(../images/fondo-formulario.jpg) center   ;
+    background-size: cover;
+    
+}
+
+.formulario .color-formulario{
+    width: 100%;
+    height: 100%;
+    background: rgba(211, 0, 0, 0.672);
+    color: #fff
+}
+
+.formulario .color-formulario h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    
+}
+
+.formulario .contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-formulario{
+    width: 45%;
+}
+
+.contenedor-formulario form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-formulario form input{
+    height: 50px;
+    outline: none;
+    font-size: 1em;
+    color: white;
+    padding-left: 10px;
+}
+.contenedor-formulario form input[type=submit]{
+    background-color: #000;
+}
+
+
+.contenedor-formulario form input[type=submit]:hover{
+    background-color: rgb(43, 43, 43);
+}
+
+
+
+
+/********FOOTER*/
+footer{
+    background-color: #000;
+    color: #fff;
+}
+
+footer .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.contenido-footer{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.logo-footer{
+    width: 500px;
+    height: 200px;
+    object-fit: contain;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo-footer img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.separador-footer{
+    width: 2px;
+    height: 200px;
+    background-color: #fff;
+}
+
+.lista-nav-footer{
+    width: 500px;
+    height: 200px;
+
+}
+
+.lista-nav-footer {
+    display: flex; 
+    align-items: center;
+    
+}
+
+.lista-nav-footer nav ul li a{
+    color: #fff;
+    font-size: 1.2em;
+    text-transform: uppercase;  
+    font-size: 1.5em;  
+}
+.lista-nav-footer nav ul li a:hover{
+    color: rgb(221, 0, 0);   
+}
+
+footer h2 span{
+    font-weight: 800;
 }
