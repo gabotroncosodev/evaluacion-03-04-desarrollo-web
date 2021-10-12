@@ -104,8 +104,8 @@ header a img{
 
 /********************BANNER DISCOGRAFIA*/
 
-.banner-discografia{ /*!REVISAR*/
-    background: url(../images/rammstein-in-studio.jpg) center fixed;
+.banner-discografia{ 
+    background: url(../images/rammstein-in-studio.jpg)  fixed no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -160,6 +160,113 @@ background: linear-gradient(180deg, rgba(13,4,58,0.7903536414565826) 0%, rgba(0,
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0d043a",endColorstr="#000000",GradientType=1);
 }
 
+
+.live-aus-berlin-caja{
+    background: url(../images/fondos-discos/fondo-live-aus-berlin.jpg) no-repeat center;
+    background-size: cover;
+}
+.live-aus-berlin-caja .degradado-color-disco{background: rgb(58,4,4);
+    background: -moz-linear-gradient(180deg, rgba(58,4,4,0.7147233893557423) 0%, rgba(0,0,0,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(58,4,4,0.7147233893557423) 0%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(180deg, rgba(58,4,4,0.7147233893557423) 0%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3a0404",endColorstr="#000000",GradientType=1);
+}
+
+.mutter-caja{
+    background: url(../images/fondos-discos/fondo-mutter.jpg) no-repeat center;
+    background-size: cover;
+}
+.mutter-caja .degradado-color-disco{background: rgb(38,58,4);
+    background: -moz-linear-gradient(180deg, rgba(38,58,4,0.76) 0%, rgba(0,0,0,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(38,58,4,0.76) 0%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(180deg, rgba(38,58,4,0.76) 0%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#263a04",endColorstr="#000000",GradientType=1);
+}
+
+.reise-reise-caja{
+    background: url(../images/fondos-discos/fondo-reise-reise.jpg) no-repeat center;
+    background-size: cover;
+}
+.reise-reise-caja .degradado-color-disco{background: rgb(58,21,4);
+    background: -moz-linear-gradient(180deg, rgba(58,21,4,0.76) 0%, rgba(0,0,0,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(58,21,4,0.76) 0%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(180deg, rgba(58,21,4,0.76) 0%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3a1504",endColorstr="#000000",GradientType=1);
+}
+
+.rosenrot-caja{
+    background: url(../images/fondos-discos/fondo-rosenrot.jpg) no-repeat center;
+    background-size: cover;
+}
+.rosenrot-caja .degradado-color-disco{background: rgb(4,18,58);
+    background: -moz-linear-gradient(180deg, rgba(4,18,58,0.76) 0%, rgba(0,0,0,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(4,18,58,0.76) 0%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(180deg, rgba(4,18,58,0.76) 0%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#04123a",endColorstr="#000000",GradientType=1);
+}
+
+.lifad-caja{
+    background: url(../images/fondos-discos/fondo-lifad.jpg) no-repeat center;
+    background-size: cover;
+}
+.lifad-caja .degradado-color-disco{
+    background: rgb(58,54,4);
+background: -moz-linear-gradient(180deg, rgba(58,54,4,0.7) 0%, rgba(0,0,0,1) 100%);
+background: -webkit-linear-gradient(180deg, rgba(58,54,4,0.7) 0%, rgba(0,0,0,1) 100%);
+background: linear-gradient(180deg, rgba(58,54,4,0.7) 0%, rgba(0,0,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3a3604",endColorstr="#000000",GradientType=1);
+}
+
+.made-germany-caja{
+    background: url(../images/fondos-discos/fondo-made-germany.jpg) no-repeat center;
+    background-size: cover;
+}
+.made-germany-caja .degradado-color-disco{
+    background: rgb(217,217,217);
+background: -moz-linear-gradient(180deg, rgba(217,217,217,0.7) 0%, rgba(0,0,0,1) 100%);
+background: -webkit-linear-gradient(180deg, rgba(217,217,217,0.7) 0%, rgba(0,0,0,1) 100%);
+background: linear-gradient(180deg, rgba(217,217,217,0.7) 0%, rgba(0,0,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d9d9d9",endColorstr="#000000",GradientType=1);
+}
+
+.klavier-caja{
+    background: url(../images/fondos-discos/fondo-klavier.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
+.klavier-caja .degradado-color-disco{background: rgb(123,117,58);
+    background: -moz-linear-gradient(180deg, rgba(123,117,58,0.5270483193277311) 0%, rgba(0,0,0,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(123,117,58,0.5270483193277311) 0%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(180deg, rgba(123,117,58,0.5270483193277311) 0%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7b753a",endColorstr="#000000",GradientType=1);
+}
+
+.paris-caja{
+    background: url(../images/fondos-discos/fondo-paris.jpg) no-repeat center;
+    background-size: cover;
+}
+.paris-caja .degradado-color-disco{background: rgb(0,75,152);
+    background: -moz-linear-gradient(180deg, rgba(0,75,152,0.7091211484593838) 0%, rgba(0,0,0,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(0,75,152,0.7091211484593838) 0%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(180deg, rgba(0,75,152,0.7091211484593838) 0%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#004b98",endColorstr="#000000",GradientType=1);
+
+}
+
+.sin-titulo-caja{
+    background: url(../images/fondos-discos/fondo-sin-titulo.jpg) no-repeat center;
+    background-size: cover;
+}
+.sin-titulo-caja .degradado-color-disco{background: rgb(157,157,157);
+    background: -moz-linear-gradient(180deg, rgba(157,157,157,0.7091211484593838) 0%, rgba(0,0,0,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(157,157,157,0.7091211484593838) 0%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(180deg, rgba(157,157,157,0.7091211484593838) 0%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9d9d9d",endColorstr="#000000",GradientType=1);
+}
+
+
+
 /*************DESCRIPCION DISCO*/
 
 .descripcion-disco{    
@@ -167,8 +274,15 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0d043a",endCo
     font-size: 20px;
 }
 
+.descripcion-disco h2{
+    font-size: 50px;
+    text-shadow: 4px 2px 1px rgba(0, 0, 0, 0.391);
+}
 
-
+.descripcion-disco h4{
+    text-shadow: 4px 2px 1px rgba(0, 0, 0, 0.391);
+    font-size: 30px;
+}
 
 
 
