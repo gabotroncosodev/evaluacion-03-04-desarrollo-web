@@ -69,6 +69,16 @@ header a img{
     padding: 0 10px;
 }
 
+/****HEADER OSCURO*/
+
+.bg-negro{   
+    background-color: #020202;
+    z-index: 1;
+} 
+
+.bg-header-tour header li a{
+    color: #fff;
+}
 
 /***********BANNER PRINCIPAL*/
 
@@ -98,31 +108,42 @@ header a img{
 /********************BANNER OTROS SITIOS*/
 
 .banner-otros-sitios{
-    padding-top: 90px;
+    padding-top: 90px; /**Para el header*/
     height: 350px;
 }
 
 /********************BANNER DISCOGRAFIA*/
 
 .banner-discografia{ 
-    background: url(../images/rammstein-in-studio.jpg)  fixed no-repeat;
+    background: url(../images/rammstein-in-studio.jpg)  fixed no-repeat center 0px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.banner-discografia h1{
+.banner-discografia h1, .banner-tour h1{
     color: #fff;
     font-size: 70px;
     text-shadow: 2px 2px 5px #000;
 }
 
+/********BANNER TOUR*/
+
+.banner-tour{ 
+    background: url(../images/rammstein-stage-2019.jpg)  fixed no-repeat center  ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /*************SECTION DISCOS***/
 
 .discos .contenedor{
+    
     display: grid;
     gap: 1em;
     grid-auto-rows: 200px;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    
 }
 
 
@@ -132,6 +153,12 @@ header a img{
     object-fit: contain;
 }
 
+/**listado*/
+
+.lista-gira-america, .lista-gira-europea{
+    background-color: #000;
+    height: 1000px;
+}
 
 /*****FONDOS CAJA DISCOS DISCOGRAFIA*/
 .herzeleid-caja{

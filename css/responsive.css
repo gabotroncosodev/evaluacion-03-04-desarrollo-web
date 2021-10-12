@@ -7,5 +7,15 @@
         flex-wrap: wrap;
         align-content: center;
         justify-content: space-evenly;
+        
+    }
+
+    .banner-otros-sitios{
+        padding-top: 120px; /**Para el header*/
+        height: 450px;
+       
+    }
+    .banner-discografia{
+        background: url(../images/rammstein-in-studio.jpg)  fixed no-repeat center 100px;
     }
   }
