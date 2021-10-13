@@ -1,3 +1,13 @@
+@media only screen and (max-width: 1500px) {
+    .localizaciones {
+        grid-template-rows: repeat(11, 80px);
+    }
+}
+
+
+
+
+
 @media only screen and (max-width: 1100px) {
     .bg-header{
         height: 150px;
@@ -9,6 +19,9 @@
         justify-content: space-evenly;
         
     }
+    .p-2 {
+        margin: 1%
+    }
 
     .banner-otros-sitios{
         padding-top: 120px; /**Para el header*/
@@ -18,4 +31,52 @@
     .banner-discografia{
         background: url(../images/rammstein-in-studio.jpg)  fixed no-repeat center 100px;
     }
+
+    .video-gira{
+        height: 400px;
+    }
+    .video-gira .venta-tickets-video h3 {
+        font-size: 20px;
+    }
+
+    .ultimo-disco .contenedor {
+        flex-direction: column;
+        padding: 5%;
+    }
+
+    .contenedor-formulario{
+        width: 70%;
+    }
+
+    .descripcion-disco .degradado-color-disco .contenedor {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+
+    .localizaciones {
+        grid-template-rows: repeat(11, 200px);
+    }
+
   }
+
+  @media only screen and (max-width: 700px) {
+    .playlist-spotify {
+        width: 500px;
+        height: 401px;
+    }
+
+    .lista-nav-footer nav ul li a {
+        font-size: 1rem;
+    }
+
+    .descripcion-disco h2 {
+        font-size: 30px;
+    }
+
+    .banner-discografia h1, .banner-tour h1 {
+        font-size: 50px;
+    }
+
+    
+  }
+
+
